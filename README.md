@@ -13,19 +13,23 @@ Valid test files are 4x4 blocks created with the '.' character. Each block is re
 ....
 ..##
 .##.
-....\
+....
+\
 ...#
 ...#
 ...#
-...#\
+...#
+\
 .###
 ...#
 ....
-....\
+....
+\
 ....
 ..##
 ..##
-....\
+....
+\
 
 Note that tetrimino blocks are only valid if they are all touching and of right size i.e. 4 '#' to one piece.
 Blocks are separated by a '\n' character in the test file for the fillit program to parse the blocks correctly.
